@@ -1,0 +1,175 @@
+* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar */
+  .navbar {
+    width: 100%;
+    background: rgb(240, 241, 241);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 20px;
+    align-items: center;
+    margin: 5px;
+    
+  }
+  .navbar-brand :hover{
+    background: rgb(244, 77, 17);
+    color: orange;
+  }
+  .navbar-nav :hover{
+    background: rgb(235, 227, 224);
+    color: rgb(7, 2, 106);
+
+  }
+
+  
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Logo */
+  .icon .logo {
+    color: rgb(153, 34, 34);
+    font-size: 38px;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    margin: 0 20px;
+  }
+  
+  .nav-links li a {
+    color: rgb(229, 220, 220);
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .nav-links li a:hover {
+    color: orangered;
+  }
+/*   
+  /* Search Bar */
+  /* .search {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 650px;
+
+  } */
+  
+  /* .srch {
+    font-family: "Times New Roman";
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    color: black;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }  */
+  
+  .btn {
+    width: 110px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid orange;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .btn:focus,
+  .srch:focus {
+    outline: none;
+  }
+
+  
+  /* Main Section */
+  .main {
+    margin-top: 76px; /* Adjust margin to prevent overlap with fixed navbar */
+    text-align: center;
+    background: #080909;
+    padding: 20px;
+  }
+
+  .file{
+    margin-left: 38%;
+    padding-left: 38%;
+    border: 2px solid black;
+  }
+
+  .benz{
+    color:white;
+  }
+  
+  .content h1 {
+    font-size: 40px;
+    color: black;
+  }
+  
+  .content span {
+    color: orangered;
+  }
+  /* Carousel */
+
+  .carousel-caption {
+     right: 15%;
+     bottom: 2.25rem;
+     padding-top: 2.25rem;
+     padding-bottom: 2.25rem;
+     text-align: center;
+     left: 15%;
+     color: black;
+  }
+
+  .par {
+    font-size: 16px;
+    color: rgb(171, 4, 4);
+    margin-top: 10px;
+  }
+  .carousel-inner img {
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+
+  /* Footer */
+  footer {
+    width: 100%;
+    background: black;
+    color: rgb(5, 4, 4);
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    background-color: black;
+    bottom: 0 ;
+  
+  }
+  
